@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+    .colorIn{
+      margin-right:10px;
+      margin-top: 30px;
+    }
+    .buttonP {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonP:hover {background-color: #3e8e41}
+
+.buttonP:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.paragra{
+    font-size :22px;
+}
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+<div class="row ">
+<div class="col-12 bg-secondary  mb-4 ">
+    <form class="col-12 pb-5 pt-5">
+        <div class="form-row">
+            <label class="col-sm-2 col-form-label text-white mt-2 h3" for="itemName">Item Name</label>
+            <input type="text" class="form-control col-sm-8" id="itemName" name="itemName" required>
+            <button id="add-btn" type="button"  class="btn btn-primary col-sm-1 ml-2 buttonP">Add</button>
+          </div>
+      </form>
+      
+</div>
+<div id="list-item" class="col-12">
+
+</div>
+</div>
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/html512.js"></script>
+</body>
+</html>
